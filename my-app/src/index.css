@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://images6.alphacoders.com/860/860645.png");
+  background-size: 100% 1080px;
+  background-repeat: no-repeat;
+  font-family: "Roboto Condensed", Times, serif;
+  width: 100%;
+  height: 100%;
+  color: white;
+  /* backdrop-filter: blur(25px); */
+}
+
+.to-do {
+  background-image: url("https://i.pinimg.com/originals/8b/7d/35/8b7d3592983e52d12cf252213d92ae5f.gif");
+  background-repeat: no-repeat;
+  background-size: 350px 500px;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #0493cb;
+  margin-left: 38%;
+  margin-top: 10%;
+}
+
+.to-do img {
+  margin-left: 36%;
+}
+
+.to-do h3 {
+  margin-left: 98px;
+}
+
+.to-do ul {
+  width: 250px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+.to-do input[type="text"] {
+  width: 200px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #3fbfff;
+  color: white;
+}
+
+.to-do input[type="text"]:focus {
+  outline: none;
+}
+
+.to-do button {
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #3fbfff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.Completed{
+  text-decoration: line-through;
+  color: black;
+}
