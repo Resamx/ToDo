@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="to-do">
       <img src="https://i.hizliresim.com/smeuxdx.png" alt="To-Do" />
-      <h3>~ Today I need to ~</h3>
+      <h3>~ i will do today ~</h3>
       <ul className="toDoList">
         {list.map(item => (
            <div key={item.id}onClick={() => {
