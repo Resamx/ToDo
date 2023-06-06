@@ -11,7 +11,7 @@ function App() {
   const [NewHeader, SetHeader] = useState("");
   return (
     <div className="to-do">
-      <img src="https://i.hizliresim.com/smeuxdx.png" alt="To-Do" />
+      <img src="smeuxdx.jpg" alt="To-Do" />
       <h3>~ i will do today ~</h3>
       <ul className="toDoList">
         {list.map(item => (
@@ -22,16 +22,17 @@ function App() {
       </ul>
       <form action="">
         <input value = {NewHeader} onChange= {e => SetHeader(e.target.value)} type="text" placeholder='Add New ToDo'/>
-        <button onClick={() => {
+        <button type="button" onClick={() => {
           setList([
             ...list,
             {id: Date.now(), header: NewHeader, Completed: false}
             ]); 
             SetHeader("");
           }}>Add</button> 
-          <button onClick={() => setList(list.filter(item => !item.Completed))}>Clear</button>
+          <button type="button" onClick={() => setList(list.filter(item => !item.Completed))}>Clear</button>
+          
       </form>
-    </div>
+      </div>
   );
 }
 
